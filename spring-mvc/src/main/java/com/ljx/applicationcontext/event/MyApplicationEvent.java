@@ -1,7 +1,6 @@
 package com.ljx.applicationcontext.event;
 
 import org.springframework.context.ApplicationEvent;
-import org.springframework.stereotype.Component;
 
 public class MyApplicationEvent extends ApplicationEvent {
 

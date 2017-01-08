@@ -10,6 +10,7 @@ import com.ljx.utils.ConfigProperties;
 
 public class Test {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(
 				ApplicationContext.class);
 
